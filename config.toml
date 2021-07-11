@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
-externalTitle = "Kraiklyn theme"
+externalTitle = "RFC9000 QUIC：一种基于UDP的安全多路复用传输协议"
 sidebarColor = "black"
 customCss = []
 
