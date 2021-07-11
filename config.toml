@@ -1,0 +1,30 @@
+baseURL = "https://fangqiuhang.github.io/RFC9000_Chinese_Translation/"
+languageCode = "cn"
+
+title = "RFC9000中文"
+defaultContentLanguage  = "cn"
+theme = "kraiklyn"
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[params]
+externalTitle = "Kraiklyn theme"
+sidebarColor = "black"
+customCss = []
+
+[[menu.shortcuts]]
+name = "Kraiklyn on Github"
+url = "https://github.com/jsnjack/kraiklyn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "Hugo docs"
+url = "https://gohugo.io/documentation/"
+weight = 20
+
+[markup]
+  #defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
