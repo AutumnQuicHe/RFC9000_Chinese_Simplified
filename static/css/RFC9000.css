@@ -1,0 +1,33 @@
+html,
+body {
+    color: rgb(2, 2, 2);
+}
+
+.sidebar.sidebar-quic {
+    background-color: rgb(2, 2, 2);
+}
+
+section.page h1,
+section.page h2,
+section.page h3,
+section.page h4 {
+    border-color: rgb(48, 48, 48);
+}
+
+section.page a,
+section.page a:hover,
+section.page a:visited,
+section.page h1 a,
+section.page h2 a,
+section.page h3 a,
+section.page h4 a,
+section.page h1 a:hover,
+section.page h2 a:hover,
+section.page h3 a:hover,
+section.page h4 a:hover,
+section.page h1 a:visited,
+section.page h2 a:visited,
+section.page h3 a:visited,
+section.page h4 a:visited {
+    color: rgb(48, 48, 48);
+}

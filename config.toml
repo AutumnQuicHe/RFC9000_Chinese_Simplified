@@ -9,19 +9,14 @@ pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
-externalTitle = "RFC9000 QUIC：一种基于UDP的安全多路复用传输协议"
-sidebarColor = "black"
-customCss = []
+  #externalTitle = "RFC9000 QUIC：一种基于UDP的安全多路复用传输协议"
+  sidebarColor = "quic"
+  customCss = ["css/RFC9000.css"]
 
 [[menu.shortcuts]]
-name = "Kraiklyn on Github"
-url = "https://github.com/jsnjack/kraiklyn"
-weight = 10
-
-[[menu.shortcuts]]
-name = "Hugo docs"
-url = "https://gohugo.io/documentation/"
-weight = 20
+  name = "RFC8999 QUIC版本通用属性"
+  url = "https://fangqiuhang.github.io/RFC8999_Chinese_Translation/"
+  weight = 10
 
 [markup]
   #defaultMarkdownHandler = "goldmark"

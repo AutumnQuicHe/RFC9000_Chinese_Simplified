@@ -2,6 +2,7 @@
 title: "备忘状态"
 anchor: "Status_of_This_Memo"
 weight: 20
+rank: "h2"
 ---
 
 本文是互联网标准追踪文档。
