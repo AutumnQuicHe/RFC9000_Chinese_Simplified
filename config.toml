@@ -13,10 +13,14 @@ pygmentsStyle = "monokailight"
   sidebarColor = "quic"
   customCss = ["css/RFC9000.css"]
 
+[[resources]]
+  src = "**.svg"
+
 [[menu.shortcuts]]
   name = "RFC8999 QUIC版本通用属性"
-  url = "https://fangqiuhang.github.io/RFC8999_Chinese_Translation/"
   weight = 10
+  [menu.shortcuts.Params]
+    lateralurl = "/RFC8999_Chinese_Translation/"
 
 [markup]
   #defaultMarkdownHandler = "goldmark"
