@@ -1,5 +1,5 @@
-baseURL = "https://fangqiuhang.github.io/RFC9000_Chinese_Translation/"
-languageCode = "cn"
+baseURL = "/RFC9000_Chinese_Translation/"
+languageCode = "zh-CN"
 
 title = "RFC9000中文"
 defaultContentLanguage  = "cn"
