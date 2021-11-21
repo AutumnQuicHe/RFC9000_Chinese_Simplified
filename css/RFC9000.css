@@ -1,17 +1,37 @@
 html,
 body {
-    color: rgb(2, 2, 2);
+    color: snow;
+    background-color: rgb(48, 48, 48);
 }
 
 .sidebar.sidebar-rfc9000 {
     background-color: rgb(2, 2, 2);
 }
 
+.content {
+    position: inherit;
+}
+
+body::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar {
+    background: rgb(2, 2, 2);
+}
+
+body::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgb(48, 48, 48);
+}
+
+body::-webkit-scrollbar-track,
+.sidebar::-webkit-scrollbar-track {
+    background: rgb(2, 2, 2);
+}
+
 section.page h1,
 section.page h2,
 section.page h3,
 section.page h4 {
-    border-color: rgb(48, 48, 48);
+    border-color: rgb(2, 2, 2);
 }
 
 section.page a,
@@ -29,5 +49,47 @@ section.page h1 a:visited,
 section.page h2 a:visited,
 section.page h3 a:visited,
 section.page h4 a:visited {
-    color: rgb(48, 48, 48);
+    color: rgb(228, 228, 228);
+}
+
+.block {
+    background-color: grey;
+    color:whitesmoke;
+}
+.block.ref {
+    background: dimgray;
+    border-radius: 2px;
+}
+.content code {
+    background: rgb(20, 20, 20);
+    -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+.content em strong {
+    color: lightsteelblue;
+}
+
+.block:before {
+    color: whitesmoke;
+}
+
+.block.tip {
+    background: #e8f7e6;
+    border-top-color: #84c578;
+}
+
+.block.note {
+    background: slategray;
+    border-top-color: steelblue;
+}
+
+.block.info {
+    background: #fefaf5;
+    border-top-color: #f1b37e;
+}
+
+.block.warn {
+    background: #fbeded;
+    border-top-color: #d58181;
 }
