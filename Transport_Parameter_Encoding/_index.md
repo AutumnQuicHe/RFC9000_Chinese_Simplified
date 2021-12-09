@@ -12,8 +12,8 @@ weight: 1800
     title="图20：传输参数序列" %}}
 
 ```
-Transport Parameters {
-  Transport Parameter (..) ...,
+传输参数序列 {
+  传输参数 (..) ...,
 }
 ```
 
