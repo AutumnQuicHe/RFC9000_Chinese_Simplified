@@ -1,5 +1,5 @@
 ---
-title: "20. 流量控制"
+title: "20. 错误码"
 anchor: "20_Error_Codes"
 weight: 200000
 ---

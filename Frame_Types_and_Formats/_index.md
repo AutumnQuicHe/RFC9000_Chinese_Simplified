@@ -1,56 +1,8 @@
 ---
-title: "19. 传输参数编码"
+title: "19. 帧类型与格式"
 anchor: "19_Frame_Types_and_Formats"
 weight: 190000
 ---
 
 正如[第12.4章]()所述，数据包包含一个或多个帧。
 本章描述QUIC帧类型的格式和语义。
-
-19.1_PADDING_Frames
-19.2_PING_Frames
-19.3_ACK_Frames
-19.3.1_ACK_Ranges
-19.3.2_ECN_Counts
-19.4_RESET_STREAM_Frames
-19.5_STOP_SENDING_Frames
-19.6_CRYPTO_Frames
-19.7_NEW_TOKEN_Frames
-19.8_STREAM_Frames
-19.9_MAX_DATA_Frames
-19.10_MAX_STREAM_DATA_Frames
-19.11_MAX_STREAMS_Frames
-19.12_DATA_BLOCKED_Frames
-19.13_STREAM_DATA_BLOCKED_Frames
-19.14_STREAMS_BLOCKED_Frames
-19.15_NEW_CONNECTION_ID_Frames
-19.16_RETIRE_CONNECTION_ID_Frames
-19.17_PATH_CHALLENGE_Frames
-19.18_PATH_RESPONSE_Frames
-19.19_CONNECTION_CLOSE_Frames
-19.20_HANDSHAKE_DONE_Frames
-19.21_Extension_Frames
-
-PADDING_Frames
-PING_Frames
-ACK_Frames
-ACK_Ranges
-ECN_Counts
-RESET_STREAM_Frames
-STOP_SENDING_Frames
-CRYPTO_Frames
-NEW_TOKEN_Frames
-STREAM_Frames
-MAX_DATA_Frames
-MAX_STREAM_DATA_Frames
-MAX_STREAMS_Frames
-DATA_BLOCKED_Frames
-STREAM_DATA_BLOCKED_Frames
-STREAMS_BLOCKED_Frames
-NEW_CONNECTION_ID_Frames
-RETIRE_CONNECTION_ID_Frames
-PATH_CHALLENGE_Frames
-PATH_RESPONSE_Frames
-CONNECTION_CLOSE_Frames
-HANDSHAKE_DONE_Frames
-Extension_Frames
