@@ -2,6 +2,7 @@
 title: "18. 传输参数编码"
 anchor: "18_Transport_Parameter_Encoding"
 weight: 1800
+rank: "h1"
 ---
 
 在《[QUIC TLS]()》定义的`quic_transport_parameters`其`extension_data`字段包含QUIC传输参数。

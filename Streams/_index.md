@@ -2,6 +2,7 @@
 title: "2. 流"
 anchor: "2_Streams"
 weight: 200
+rank: "h1"
 ---
 
 QUIC的流给应用提供了一个轻量、有序的字节流抽象，可以是单向或双向的。

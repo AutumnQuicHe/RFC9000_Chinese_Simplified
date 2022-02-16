@@ -2,6 +2,7 @@
 title: "14.3 数据报分包层PMTU发现"
 anchor: "14.3_Datagram_Packetization_Layer_PMTU_Discovery"
 weight: 1430
+rank: "h2"
 ---
 
 DPLPMTUD（详见《[DPLPMTUD]()》）依赖对**PMTU探测包**中携带的QUIC数据包的丢失或确认进行追踪。DPLPMTUD中使用了**填充帧**的**PMTU探测包**实现了如《[DPLPMTUD]()》的[第4.1章]()所述的“使用填充数据进行探测”。

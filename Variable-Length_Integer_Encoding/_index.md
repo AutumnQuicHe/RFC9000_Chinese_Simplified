@@ -2,6 +2,7 @@
 title: "16. 可变长度整型编码"
 anchor: "16_Variable-Length_Integer_Encoding"
 weight: 1600
+rank: "h1"
 ---
 
 QUIC数据包和帧经常对非负整型值使用一种可变长度编码。这种编码确保较小的整型值能被编码到更少的字节中。

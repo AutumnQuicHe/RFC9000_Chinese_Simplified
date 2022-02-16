@@ -2,7 +2,7 @@
 title: "17.2.5 重试数据包"
 anchor: "17.2.5_Retry_Packet"
 weight: 1725
-rank: "h2"
+rank: "h3"
 ---
 
 如[图18](#Figure_18_Retry_Packet)所示，重试数据包（Retry packet）使用类型值为`0x03`的长包头。它携带者由服务器创建的一个地址验证令牌。想要进行重试的服务器会使用它，详见[第8.1章]()。

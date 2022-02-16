@@ -2,6 +2,7 @@
 title: "14. 数据报尺寸"
 anchor: "14_Datagram_Size"
 weight: 1400
+rank: "h1"
 ---
 
 一个UDP数据报可以包含一个或多个QUIC数据包。数据报尺寸指的是携带QUIC数据包的单个UDP数据报的UDP载荷总大小。数据报尺寸包含一个或多个QUIC数据包头部和受保护的载荷，但不包含UDP或IP头部。

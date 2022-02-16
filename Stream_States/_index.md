@@ -2,6 +2,7 @@
 title: "3. 流状态"
 anchor: "3_Stream_States"
 weight: 300
+rank: "h1"
 ---
 
 本章描述流的发送及接收相关组件。

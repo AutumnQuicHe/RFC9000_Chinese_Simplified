@@ -2,7 +2,7 @@
 title: "17.2.2 初始数据包"
 anchor: "17.2.2_Initial_Packet"
 weight: 1722
-rank: "h2"
+rank: "h3"
 ---
 
 初始数据包（Initial packet）使用类型值为`0x00`的长包头。它携带着发送自客户端和服务器的最初的**加密帧**以进行密钥交换，同时它还携带着任意方向的**ACK帧**。

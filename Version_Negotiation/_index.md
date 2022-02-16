@@ -2,6 +2,7 @@
 title: "6. 版本协商"
 anchor: "6_Version_Negotiation"
 weight: 600
+rank: "h1"
 ---
 
 版本协商使得服务端可以表明其不支持客户端使用的版本。

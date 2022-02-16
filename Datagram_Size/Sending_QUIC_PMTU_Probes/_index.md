@@ -2,6 +2,7 @@
 title: "14.4 发送QUIC的PMTU探测包"
 anchor: "14.4_Sending_QUIC_PMTU_Probes"
 weight: 1440
+rank: "h2"
 ---
 
 **PMTU探测包**是ACK触发包。

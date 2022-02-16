@@ -2,6 +2,7 @@
 title: "15. 版本"
 anchor: "15_Versions"
 weight: 1500
+rank: "h1"
 ---
 
 QUIC版本使用一个32位无符号整型值来标识。

@@ -2,6 +2,7 @@
 title: "14.2 路径最大传输单元"
 anchor: "14.2_Path_Maximum_Transmission_Unit"
 weight: 1420
+rank: "h2"
 ---
 
 PMTU指整个IP数据包的最大尺寸，包括IP头部、UDP头部和UDP载荷。UDP载荷包含一个或多个QUIC数据包头部和受保护的载荷。PMTU可能受路径特征影响因而随时间变化。终端的最大数据报尺寸指的是在某个给定时间，终端能发送的最大UDP载荷大小。
