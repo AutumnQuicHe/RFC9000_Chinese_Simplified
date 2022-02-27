@@ -1,0 +1,40 @@
+$main_colour: #020202;
+$theme_colour: $main_colour; /* Trafalgar Law */
+
+$body_colour: white;
+$body_backgroud_colour: #303030;
+$body_font_size: 18px;
+$sidebar_background_colour: $main_colour;
+$scrollbar_colour: $main_colour;
+$scrollbar_thumb_colour: darkgrey;
+$scrollbar_track_colour: $main_colour;
+$header_text_shadow: 2px 4px 5px #000000;
+$header_border_colour: snow;
+$header_a_colour: snow;
+$page_table_border: solid snow;
+
+/* content */
+$content_code_background: #141414;
+
+$code_webkit_box_shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+$code_moz_box_shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+$code_box_shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+
+$content_em_strong_text_shadow: 2px 4px $main_colour;
+$content_em_strong_colour: ghostwhite;
+$content_strong_text_shadow: 0 0 7px $main_colour;
+$content_strong_colour: whitesmoke;
+
+/* block */
+$block_backgroud_colour: grey;
+$block_colour: white;
+
+$ref_background: #121212;
+$tip_background: #454849;
+$tip_border_top_colour: #284750;
+$note_background: #454b5e;
+$note_border_top_colour: #070d1d;
+$info_background: #2b2520;
+$info_border_top_colour: #271200;
+$warn_background: #533f3f;
+$warn_border_top_colour: #270000;
