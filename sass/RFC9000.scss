@@ -2,5 +2,6 @@
 @import "template";
 
 .sidebar.sidebar-rfc9000 {
-    background-color: $main_colour;
+    color: $sidebar_colour;
+    background-color: $sidebar_background_colour;
 }

@@ -4,6 +4,8 @@ $theme_colour: $main_colour; /* Trafalgar Law */
 $body_colour: white;
 $body_backgroud_colour: #303030;
 $body_font_size: 18px;
+$sidebar_colour: snow;
+$sidebar_a_hover_colour: gray;
 $sidebar_background_colour: $main_colour;
 $scrollbar_colour: $main_colour;
 $scrollbar_thumb_colour: darkgrey;
@@ -30,6 +32,9 @@ $block_backgroud_colour: grey;
 $block_colour: white;
 
 $ref_background: #121212;
+$ref_colour: $block_colour;
+$ref_code_colour: $ref_colour;
+$ref_code_webkit_box_shadow: $code_webkit_box_shadow;
 $tip_background: #454849;
 $tip_border_top_colour: #284750;
 $note_background: #454b5e;
