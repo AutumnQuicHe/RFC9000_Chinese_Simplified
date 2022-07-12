@@ -5,7 +5,7 @@ weight: 230100
 rank: "h2"
 ---
 
-[图45]()中的伪代码展示了如何从字节流中读取可变长度整型值。`ReadVarint`函数接收单个参数——一个字节序列，它将以网络字节序被读取。
+[图45](#Figure_45_Sample_Variable_Length_Integer_Decoding_Algorithm)中的伪代码展示了如何从字节流中读取可变长度整型值。`ReadVarint`函数接收单个参数——一个字节序列，它将以网络字节序被读取。
 
 {{% block_ref
 indx="Figure_45_Sample_Variable_Length_Integer_Decoding_Algorithm"

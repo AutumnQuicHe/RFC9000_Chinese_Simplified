@@ -5,7 +5,7 @@ weight: 1725
 rank: "h3"
 ---
 
-如[图18](#Figure_18_Retry_Packet)所示，重试数据包（Retry packet）使用类型值为`0x03`的长包头。它携带者由服务器创建的一个地址验证令牌。想要进行重试的服务器会使用它，详见[第8.1章]()。
+如[图18](#Figure_18_Retry_Packet)所示，重试数据包（Retry packet）使用类型值为`0x03`的长包头。它携带者由服务器创建的一个地址验证令牌。想要进行重试的服务器会使用它，详见[第8.1章](#8.1_Address_Validation_during_Connection_Establishment)。
 
 {{% block_ref
 indx="Figure_18_Retry_Packet"
@@ -37,4 +37,4 @@ title="图18：重试数据包" %}}
 
 重试完整性标签（Retry Integrity Tag）：
 
-:   在《[QUIC-TLS]()》的[第5.8章]()（《重试完整性标签》）中定义。
+:   在《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第5.8章](../RFC9001_Chinese_Translation/#5.8_Retry_Packet_Integrity)（《重试完整性标签》）中定义。

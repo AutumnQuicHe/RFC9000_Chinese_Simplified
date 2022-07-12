@@ -5,7 +5,7 @@ weight: 250000
 rank: "h1"
 ---
 
-本协议背后的原始设计和基本原理很大程度上来自Jim Roskind的工作（详见《[EARLY-DESIGN]()》）。
+本协议背后的原始设计和基本原理很大程度上来自Jim Roskind的工作（详见《[EARLY-DESIGN](https://docs.google.com/document/d/1RNHkx_VvKWyWg6Lr8SZ-saqsQx7rFV-ev2jRFUoVD34/edit?usp=sharing)》）。
 
 IETF QUIC工作组接收到了来自许多人员的大量支持。以下人员对本文档做出了重要贡献：
 

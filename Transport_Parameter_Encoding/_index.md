@@ -5,7 +5,7 @@ weight: 1800
 rank: "h1"
 ---
 
-在《[QUIC TLS]()》定义的`quic_transport_parameters`其`extension_data`字段包含QUIC传输参数。
+在《[QUIC-TLS](https://www.rfc-editor.org/info/rfc9001)》定义的`quic_transport_parameters`其`extension_data`字段包含QUIC传输参数。
 它们被编码为一个传输参数序列，如[图20](#Figure_20_Sequence_of_Transport_Parameters)所示：
 
 {{% block_ref

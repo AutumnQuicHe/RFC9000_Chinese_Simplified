@@ -28,7 +28,7 @@ The integration of TLS and QUIC is described in more detail in [[QUIC-TLS](#QUIC
 [QUIC-TLS]是句子里实际提到的参考文献，这个结构本身参与语法构建，按照中文的习惯一般使用书名号《》将这种引用括起来。因此其应该翻译为：
 
 ```
-《[QUIC TLS](#QUIC-TLS)》
+《[QUIC-TLS](#QUIC-TLS)》
 ```
 
 但是下述这种：
@@ -43,14 +43,14 @@ QUIC integrates the TLS handshake [[TLS13](#TLS13)].
 TLS握手<sup>[TLS 1.3](#TLS13)</sup>
 ```
 
-## 2. 图或表格
+## 2. 图表
 
-为了支持文档中的图及表格，这里fork了kraiklyn主题并添加了一个shortcode方法专门用来绘图及表格，例如：
+为了支持文档中的图表，这里fork了kraiklyn主题并添加了一个shortcode方法专门用来绘制图表，例如：
 
 ```markdown
 {{% block_ref
     indx="Table_1_Stream_ID_Types"
-    title="表格1：流类型" %}}
+    title="表1：流类型" %}}
 \`\`\`
 |位  |流类型|
 |:---|:-----|

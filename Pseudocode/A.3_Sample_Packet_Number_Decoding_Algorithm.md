@@ -5,7 +5,7 @@ weight: 230300
 rank: "h2"
 ---
 
-[图47]()中的伪代码包含了在移除头部保护后解码数据包号的算法样例。
+[图47](#Figure_47_Sample_Packet_Number_Decoding_Algorithm)中的伪代码包含了在移除头部保护后解码数据包号的算法样例。
 
 `DecodePacketNumber`函数接收三个参数：
 

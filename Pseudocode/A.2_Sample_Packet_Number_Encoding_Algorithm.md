@@ -5,7 +5,7 @@ weight: 230200
 rank: "h2"
 ---
 
-[图46]()中的伪代码展示了QUIC实现怎样选择合适长度的数据包号编码。
+[图46](#Figure_46_Sample_Packet_Number_Encoding_Algorithm)中的伪代码展示了QUIC实现怎样选择合适长度的数据包号编码。
 
 `EncodePacketNumber`函数接收两个参数：
 
