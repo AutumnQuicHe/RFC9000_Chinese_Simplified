@@ -27,57 +27,10 @@ QUIC数据包保护用于尽可能多地对握手协议进行加密。
 如果可以的话，尽量在握手期间交换应用层数据，并用星号（"\*"）表示。
 一旦完成握手，终端就能自由交换应用层数据。
 
-{{% block_ref
-    indx="Figure_4_Simplified_QUIC_Handshake"
-    title="图4：简版QUIC握手" %}}
-
-<table>
-
-<tbody>
-<tr>
-<td style="text-align:left">
-客户端<br>
-<br>
-初始包（加密帧）<br>
-0-RTT包（*）<br>
-<br><br><br>
-握手包（加密帧）<br>
-1-RTT包（*）<br>
-<br><br>
-1-RTT
-</td>
-
-<td style="text-align:left">
-
-<br><br><br>
-<code>----------></code><br>
-<br><br>
-<code><----------</code><br>
-<br>
-<code>----------></code><br>
-<code><----------</code><br>
-<br>
-<code><=========></code>
-</td>
-
-<td style="text-align:right">
-服务端<br>
-<br><br><br>
-初始包（加密帧）<br>
-握手包（加密帧）<br>
-1-RTT（*）<br>
-<br>
-1-RTT（握手完成帧）<br>
-<br><br>
-1-RTT
-</td>
-
-</tr>
-
-</tbody>
-</table>
-
-{{% /block_ref %}}
+{{< block_img
+indx="Figure_4_Simplified_QUIC_Handshake"
+title="图4：简版QUIC握手"
+src="/RFC9000_Chinese_Translation/images/Figure_4_Simplified_QUIC_Handshake.svg" >}}
 
 终端可以使用握手期间发送的数据包来测试是否支持显式拥塞通知（ECN），详见[第13.4章](#13.4_Explicit_Congestion_Notification)。
 终端通过观察用于确认其发送的首个数据包的**ACK帧**是否携带ECN计数，验证是否支持ECN，更多细节详见[第13.4.2章](#13.4.2_ECN_Validation)。
