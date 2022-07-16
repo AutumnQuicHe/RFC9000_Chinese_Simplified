@@ -9,7 +9,7 @@ QUIC是一个安全通用传输协议。本文定义了第1版QUIC，支持《[Q
 
 QUIC是一个面向连接的协议，在客户端及服务端之间建立有状态的交互。
 
-QUIC握手由密钥协商及传输参数协商组成。QUIC集成了TLS握手《[TLS13](https://www.rfc-editor.org/info/rfc8446)》，同时以自定义的帧保护数据包。更多关于TLS与QUIC集成的细节描述详见《[QUIC-TLS](https://www.rfc-editor.org/info/rfc9001)》。握手过程被设计成支持尽早交换应用数据（0-RTT），包含一个需要通过某种形式的提前交流或配置来开启的客户端选项。
+QUIC握手由密钥协商及传输参数协商组成。QUIC集成了TLS握手《[TLS13](https://www.rfc-editor.org/info/rfc8446)》，同时以自定义的帧保护数据包。更多关于TLS与QUIC集成的细节描述详见《[QUIC-TLS](/RFC9001_Chinese_Translation)》。握手过程被设计成支持尽早交换应用数据（0-RTT），包含一个需要通过某种形式的提前交流或配置来开启的客户端选项。
 
 终端通过QUIC交流是以交互QUIC数据包的形式实现的。大多数数据包装载着一个或多个在终端间搬运控制信息和应用数据的帧。QUIC会验证每个包的内容，并根据实际情况对每个数据包进行加密。QUIC数据包通过UDP报文<sup>《[UDP](https://www.rfc-editor.org/info/rfc768)》</sup>传输从而能够更好地支持现有的系统及网络环境。
 

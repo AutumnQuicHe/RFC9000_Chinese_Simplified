@@ -12,5 +12,5 @@ QUIC接收方控制发送方在一条流上以及任何时刻在所有流上可�
 同样地，为了限制连接并发，QUIC终端控制对方可以同时开启的最大流数量，详见[第4.6章](#4.6_Controlling_Concurrency)。
 
 通过**加密帧**发送的数据不像流数据那样受流量控制制约。
-QUIC依赖于加密协议的实现来避免这些数据被过量缓存，详见《[QUIC-TLS](https://www.rfc-editor.org/info/rfc9001)》。
+QUIC依赖于加密协议的实现来避免这些数据被过量缓存，详见《[QUIC-TLS](/RFC9001_Chinese_Translation)》。
 为了防止在多个层次过量缓存数据，QUIC实现{{< req_level SHOULD >}}为加密协议实现提供一套接口以供其交流缓存区限制。

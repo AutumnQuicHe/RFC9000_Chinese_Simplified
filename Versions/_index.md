@@ -11,7 +11,7 @@ QUIC版本使用一个32位无符号整型值来标识。
 
 其他QUIC版本的各种属性可能与本版本不同。《[QUIC不变量](../RFC8999_Chinese_Translation)》中描述了保证在协议不同版本间保持一致的一些QUIC属性。
 
-如《[QUIC-TLS](https://www.rfc-editor.org/info/rfc9001)》所述，版本为`0x00000001`的QUIC使用TLS作为加密握手协议。
+如《[QUIC-TLS](/RFC9001_Chinese_Translation)》所述，版本为`0x00000001`的QUIC使用TLS作为加密握手协议。
 
 版本号最高的16个有效位被清除的版本被保留使用，用于将来的IETF共识文档。
 

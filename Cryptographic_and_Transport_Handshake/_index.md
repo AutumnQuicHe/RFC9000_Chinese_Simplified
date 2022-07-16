@@ -7,7 +7,7 @@ rank: "h1"
 
 QUIC通过将加密与传输握手组合最小化连接建立的延迟。
 QUIC使用**加密帧**（详见[第19.6章](#19.6_CRYPTO_Frames)）传递加密握手信息。
-本文所定义的QUIC版本标识为`0x00000001`，使用《[QUIC-TLS](https://www.rfc-editor.org/info/rfc9001)》描述的TLS，而不同的QUIC版本可能表面其使用了不同的加密握手协议。
+本文所定义的QUIC版本标识为`0x00000001`，使用《[QUIC-TLS](/RFC9001_Chinese_Translation)》描述的TLS，而不同的QUIC版本可能表面其使用了不同的加密握手协议。
 
 QUIC可靠、有序地传递加密握手数据。
 QUIC数据包保护用于尽可能多地对握手协议进行加密。
