@@ -69,6 +69,15 @@ TLS握手<sup>[TLS 1.3](#TLS13)</sup>
 [表1](#Table_1_Stream_ID_Types)
 ```
 
+添加图片（一般用svg矢量图）：
+
+```markdown
+{{< block_img
+indx="Figure_9_Example_Handshake_with_Retry"
+title="图9：使用重试的握手样例"
+src="/RFC9000_Chinese_Simplified/images/Figure_9_Example_Handshake_with_Retry.svg" >}}
+```
+
 ## 3. 何时添加英语原文
 
 只在如下情况添加：
