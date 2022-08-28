@@ -30,7 +30,7 @@ QUIC数据包保护用于尽可能多地对握手协议进行加密。
 {{< block_img
 indx="Figure_4_Simplified_QUIC_Handshake"
 title="图4：简版QUIC握手"
-src="/RFC9000_Chinese_Translation/images/Figure_4_Simplified_QUIC_Handshake.svg" >}}
+src="/RFC9000_Chinese_Simplified/images/Figure_4_Simplified_QUIC_Handshake.svg" >}}
 
 终端可以使用握手期间发送的数据包来测试是否支持显式拥塞通知（ECN），详见[第13.4章](#13.4_Explicit_Congestion_Notification)。
 终端通过观察用于确认其发送的首个数据包的**ACK帧**是否携带ECN计数，验证是否支持ECN，更多细节详见[第13.4.2章](#13.4.2_ECN_Validation)。
