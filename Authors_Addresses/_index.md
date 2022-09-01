@@ -5,13 +5,13 @@ weight: 260000
 rank: "h1"
 ---
 
-**Jana Iyengar (编辑)**
+##### Jana Iyengar (编辑)
 
 Fastly
 
-Email: [jri.ietf@gmail.com](mainto:jri.ietf@gmail.com)
+Email: [jri.ietf@gmail.com](mailto:jri.ietf@gmail.com)
 
-**Martin Thomson (编辑)**
+##### Martin Thomson (编辑)
 
 Mozilla
 
