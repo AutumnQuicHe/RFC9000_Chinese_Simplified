@@ -17,7 +17,8 @@ Linux下可以直接`apt install hugo`安装环境，mac下可以用brew命令�
 
 在翻译的过程中，深刻体会到英语与汉语语法思维上的差别，其也体现在行文的方方面面。以下记录翻译QUIC系列文档时应该做的处理：
 
-## 1. 方括号引用参考文献
+关于如何行文及翻译，总的规范详见《[文档翻译规范](https://autumnquiche.github.io/Translation_Norms/#Translation_Norms)》。
+此外，RFC9000还需补充如下规范：
 
 形如：
 
@@ -90,10 +91,10 @@ src="/RFC9000_Chinese_Simplified/images/Figure_9_Example_Handshake_with_Retry.sv
 
 本文决定暂时采用将其加粗展示的方式进行区分。
 
-## 5. 错误类型翻译展示
+## 2. 错误类型翻译展示
 
 形如`CONNECTION_ID_LIMIT_ERROR`的错误类型也比较麻烦，因其可能细碎地提前引用。因此，需要将其特别考虑。在其正式介绍前，如果首次出现在一个大章节中，则该大写字段以括号（）附上中文翻译。同章节后续再出现则不再附上翻译。
 
-## 6. 传输参数翻译展示
+## 3. 传输参数翻译展示
 
 传输参数（transport parameters）展示方式同第5点。

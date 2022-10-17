@@ -83,17 +83,17 @@ title="表5：长包头数据包类型" %}}
 
 {{% /block_ref %}}
 
-一个长包头数据包的包头形式比特位、目标和源连接ID长度、目标和源连接ID，以及版本字段是版本无关的。第一个字节的其他字段是版本特定的。有关怎样解释不同QUIC版本的数据包的细节，见《[QUIC不变量](../RFC8999_Chinese_Translation)》。
+一个长包头数据包的包头形式比特位、目标和源连接ID长度、目标和源连接ID，以及版本字段是版本无关的。第一个字节的其他字段是版本特定的。有关怎样解释不同QUIC版本的数据包的细节，见《[QUIC不变量](../RFC8999_Chinese_Simplified)》。
 
 第一个字节的其他字段和载荷的解释方法取决于版本和数据包类型。接下来的章节会描述当前版本下，各种数据包类型对它们的特定语义。在这个版本的QUIC中，一些长包头数据包均包含了这些额外字段：
 
 保留比特位（Reserved Bits）：
 
-:   字节0的某两个比特位（掩码为`0x0c`的那两个）在多种数据包类型中都被保留使用。这些比特位被头部保护所保护，详见《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第5.4章](../RFC9001_Chinese_Translation/#5.4_Header_Protection)。在进行保护前，这两个比特位的值{{< req_level MUST >}}被设置为0。若在移除数据包保护和头部保护之后发现这些位被设置为非零值，则接收到该数据包的终端{{< req_level MUST >}}将该情况视作一个类型为`PROTOCOL_VIOLATION`的连接错误。仅在移除头部保护后就丢弃这样的数据包会使终端暴露于攻击之下，详见《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第9.5章](../RFC9001_Chinese_Translation/#9.5_Header_Protection_Timing_Side_Channels)。
+:   字节0的某两个比特位（掩码为`0x0c`的那两个）在多种数据包类型中都被保留使用。这些比特位被头部保护所保护，详见《[QUIC-TLS](../RFC9001_Chinese_Simplified)》的[第5.4章](../RFC9001_Chinese_Simplified/#5.4_Header_Protection)。在进行保护前，这两个比特位的值{{< req_level MUST >}}被设置为0。若在移除数据包保护和头部保护之后发现这些位被设置为非零值，则接收到该数据包的终端{{< req_level MUST >}}将该情况视作一个类型为`PROTOCOL_VIOLATION`的连接错误。仅在移除头部保护后就丢弃这样的数据包会使终端暴露于攻击之下，详见《[QUIC-TLS](../RFC9001_Chinese_Simplified)》的[第9.5章](../RFC9001_Chinese_Simplified/#9.5_Header_Protection_Timing_Side_Channels)。
 
 数据包号长度（Packet Number Length）：
 
-:   在包含数据包号字段的数据包类型中，字节0最低的两个有效位（掩码为`0x03`的那两个）包含数据包号字段的长度。该长度被编码为一个2位无符号整型值，这个值比数据包号字段的字节长度小`1`。也就是说，数据包号字段的长度等于这个字段的值加`1`。这些比特位被头部保护所保护，详见《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第5.4章](../RFC9001_Chinese_Translation/#5.4_Header_Protection)。
+:   在包含数据包号字段的数据包类型中，字节0最低的两个有效位（掩码为`0x03`的那两个）包含数据包号字段的长度。该长度被编码为一个2位无符号整型值，这个值比数据包号字段的字节长度小`1`。也就是说，数据包号字段的长度等于这个字段的值加`1`。这些比特位被头部保护所保护，详见《[QUIC-TLS](../RFC9001_Chinese_Simplified)》的[第5.4章](../RFC9001_Chinese_Simplified/#5.4_Header_Protection)。
 
 长度（Length）：
 
@@ -101,7 +101,7 @@ title="表5：长包头数据包类型" %}}
 
 数据包号（Packet Number）：
 
-:   这个字段的长度是1至4字节。数据包号被头部保护所保护，详见《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第5.4章](../RFC9001_Chinese_Translation/#5.4_Header_Protection)。数据包号字段的长度被编码进字节0的数据包号长度比特位，见上文。
+:   这个字段的长度是1至4字节。数据包号被头部保护所保护，详见《[QUIC-TLS](../RFC9001_Chinese_Simplified)》的[第5.4章](../RFC9001_Chinese_Simplified/#5.4_Header_Protection)。数据包号字段的长度被编码进字节0的数据包号长度比特位，见上文。
 
 数据包载荷（Packet Payload）：
 
