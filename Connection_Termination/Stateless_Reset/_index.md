@@ -43,7 +43,7 @@ title="图10：无状态重置" %}}
 
 终端发送的无状态重置尺寸{{< req_level MUST_NOT >}}是它接收到的数据包的三倍或更大，以免被用于放大攻击。[第10.3.3章](#10.3.3_Looping)描述了无状态重置尺寸的额外限制。
 
-终端{{< req_level MUST >}}丢弃因过小而不合法的QUIC数据包。举个例子，在使用《[QUIC-TLS](/RFC9001_Chinese_Translation)》中定义的AEAD函数组时，小于21字节的短包头数据包永远不可能合法。
+终端{{< req_level MUST >}}丢弃因过小而不合法的QUIC数据包。举个例子，在使用《[QUIC-TLS](/RFC9001_Chinese_Simplified)》中定义的AEAD函数组时，小于21字节的短包头数据包永远不可能合法。
 
 终端{{< req_level MUST >}}将无状态重置以短包头数据包的格式发送。然而，终端{{< req_level MUST >}}将任何以有效无状态重置令牌结尾的数据包视作无状态重置，因为其他QUIC版本可能允许使用长包头。
 

@@ -37,4 +37,4 @@ title="图18：重试数据包" %}}
 
 重试完整性标签（Retry Integrity Tag）：
 
-:   在《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第5.8章](../RFC9001_Chinese_Translation/#5.8_Retry_Packet_Integrity)（《重试完整性标签》）中定义。
+:   在《[QUIC-TLS](../RFC9001_Chinese_Simplified)》的[第5.8章](../RFC9001_Chinese_Simplified/#5.8_Retry_Packet_Integrity)（《重试完整性标签》）中定义。

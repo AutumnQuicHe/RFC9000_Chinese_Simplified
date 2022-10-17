@@ -7,7 +7,7 @@ rank: "h1"
 
 连接ID的使用使得连接能经受住终端地址（IP地址和端口）的变化，例如由终端迁移至新的网络环境而引起的变化。本章描述了终端迁移至新地址的过程。
 
-QUIC的设计要求终端在握手过程中保持稳定的地址。在握手确认前，终端{{< req_level MUST_NOT >}}发起连接迁移，详见《[QUIC-TLS](../RFC9001_Chinese_Translation)》的[第4.1.2章](../RFC9001_Chinese_Translation/#4.1.2_Handshake_Confirmed)。
+QUIC的设计要求终端在握手过程中保持稳定的地址。在握手确认前，终端{{< req_level MUST_NOT >}}发起连接迁移，详见《[QUIC-TLS](../RFC9001_Chinese_Simplified)》的[第4.1.2章](../RFC9001_Chinese_Simplified/#4.1.2_Handshake_Confirmed)。
 
 如果对端发送了传输参数`disable_active_migration`（禁止活跃迁移），终端在握手过程中还{{< req_level MUST_NOT >}}从不同于当前地址的本地地址发送数据包（包括探测数据包，详见[第9.1章](#9.1_Probing_a_New_Path)），除非终端已经对来自对端的传输参数`preferred_address`（首选地址）作出反应。如果对端违反了这项要求，终端{{< req_level MUST >}}要么丢弃来自那条路径的传入数据包而不创建无状态重置，要么用路径验证来应对并且允许对端迁移。创建无状态重置或关闭连接将允许网络中的第三方用伪造或操作被观测的流量的方式使得连接被关闭。
 
