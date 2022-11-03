@@ -1,47 +1,53 @@
-$main_colour: #020202;
-$theme_colour: $main_colour; /* Trafalgar Law */
+$hair_highlight:#d9b67f;
+$hair_medium:#442c11;
+$face_light:#f1d7b0;
+$uniform:#0a2c1f;
 
-$body_colour: white;
-$body_backgroud_colour: #303030;
-$body_font_size: 18px;
-$sidebar_colour: snow;
-$sidebar_a_hover_colour: gray;
-$sidebar_background_colour: $main_colour;
+$main_colour: #281b0a;
+$theme_colour: #111109; /* levi */
+$font_backgroud_colour: #efe5cc;
+
+$body_colour: $theme_colour;
+$body_backgroud_colour: $font_backgroud_colour;
+$body_font_size: 15px;
+$sidebar_colour: $font_backgroud_colour;
+$sidebar_a_hover_colour: $hair_highlight;
+$sidebar_background_colour: $theme_colour;
 $scrollbar_colour: $main_colour;
-$scrollbar_thumb_colour: darkgrey;
-$scrollbar_track_colour: $main_colour;
-$header_text_shadow: 2px 4px 5px #000000;
-$header_border_colour: snow;
-$header_a_colour: snow;
-$page_table_border: solid snow;
+$scrollbar_thumb_colour: $body_backgroud_colour;
+$scrollbar_track_colour: $main_colour; /* old #299c69*/
+$header_text_shadow: 2px 4px 5px $face_light;
+$header_border_colour: $uniform;
+$header_a_colour: $main_colour;
+$page_table_border: 1px solid $main_colour;
 
 /* content */
-$content_code_background: #141414;
+$content_code_background: $font_backgroud_colour;
 
-$code_webkit_box_shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+$code_webkit_box_shadow: inset 0 1px 10px rgba(182, 141, 158, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
 $code_moz_box_shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
 $code_box_shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
 
-$content_em_strong_text_shadow: 2px 4px $main_colour;
-$content_em_strong_colour: ghostwhite;
-$content_strong_text_shadow: 0 0 7px $main_colour;
-$content_strong_colour: whitesmoke;
+$content_em_strong_text_shadow: 1px 1px 2px $main_colour;
+$content_em_strong_colour: $theme_colour;
+$content_strong_text_shadow: 0 0 2px $main_colour;
+$content_strong_colour: $theme_colour;
+
+$content_blockquote_left_colour:$hair_medium;
+$content_blockquote_background:$face_light;
 
 /* block */
-$block_backgroud_colour: grey;
-$block_colour: white;
+$block_backgroud_colour: rgb(255, 242, 248);
+$block_colour: $main_colour;
 
-$ref_background: #121212;
-$ref_colour: $block_colour;
+$ref_background: $theme_colour;
+$ref_colour: snow;
 $ref_code_colour: $ref_colour;
-$ref_code_webkit_box_shadow: $code_webkit_box_shadow;
-$ref_table_border: 2px solid snow;
+$ref_code_webkit_box_shadow: inset 0 1px 10px rgba(224, 220, 220, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
+$ref_table_border: 1px solid snow;
+$ref_strong_colour: $face_light;
 
-$tip_background: #454849;
-$tip_border_top_colour: #284750;
-$note_background: #454b5e;
-$note_border_top_colour: #070d1d;
-$info_background: #2b2520;
-$info_border_top_colour: #271200;
-$warn_background: #533f3f;
-$warn_border_top_colour: #270000;
+$tip_background: rgb(156, 212, 231);
+$note_background: #a0b2ec;
+$info_background: #f3b07a;
+$warn_background: #dd9b9b;
