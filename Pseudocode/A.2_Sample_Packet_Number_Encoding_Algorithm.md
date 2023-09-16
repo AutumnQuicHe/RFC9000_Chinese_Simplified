@@ -30,7 +30,7 @@ EncodePacketNumber(full_pn, largest_acked):
   min_bits = log(num_unacked, 2) + 1
   num_bytes = ceil(min_bits / 8)
 
-  // 将整型值编码，并截断为仅剩最低`num_bytes`个字节
+  // 将整型值编码，截断为仅剩最低`num_bytes`个字节
   return encode(full_pn, num_bytes)
 ```
 
