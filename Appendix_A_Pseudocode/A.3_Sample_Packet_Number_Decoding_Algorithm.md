@@ -1,7 +1,7 @@
 ---
 title: "A.3. 数据包号解码算法样例"
 anchor: "A.3_Sample_Packet_Number_Decoding_Algorithm"
-weight: 230300
+weight: 240300
 rank: "h2"
 ---
 

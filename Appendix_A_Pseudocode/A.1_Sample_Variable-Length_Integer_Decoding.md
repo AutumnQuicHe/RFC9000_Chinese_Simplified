@@ -1,7 +1,7 @@
 ---
 title: "A.1. 可变长度整型解码样例"
 anchor: "A.1_Sample_Variable-Length_Integer_Decoding"
-weight: 230100
+weight: 240100
 rank: "h2"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "A.2. 数据包号编码算法样例"
 anchor: "A.2_Sample_Packet_Number_Encoding_Algorithm"
-weight: 230200
+weight: 240200
 rank: "h2"
 ---
 

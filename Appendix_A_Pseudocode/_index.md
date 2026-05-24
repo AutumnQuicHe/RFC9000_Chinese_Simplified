@@ -1,7 +1,7 @@
 ---
 title: "附录A. 伪代码"
 anchor: "Appendix_A_Pseudocode"
-weight: 230000
+weight: 240000
 rank: "h1"
 ---
 

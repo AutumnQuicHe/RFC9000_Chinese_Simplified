@@ -1,7 +1,7 @@
 ---
 title: "A.4. ECN验证算法样例"
 anchor: "A.4_Sample_ECN_Validation_Algorithm"
-weight: 230400
+weight: 240400
 rank: "h2"
 ---
 
