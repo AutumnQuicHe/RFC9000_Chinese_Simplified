@@ -26,6 +26,6 @@ title="表4：整型编码概要" %}}
 
 在[附录A.1](#A.1_Sample_Variable-Length_Integer_Decoding)中可以找到一种解码算法的例子和一些样例编码。
 
-值并不一定要被编码进正正好好最少的所需字节数，帧类型字段是主要的例外，详见[第12.4章](#12.4_Frames_and_Frame_Types)。
+值并不一定要被编码进正正好好最少的所需字节数，唯一的例外是帧类型字段，详见[第12.4章](#12.4_Frames_and_Frame_Types)。
 
 版本（[第15章](#15_Versions)），头部中发送的数据包号（[第17.1章](#17.1_Packet_Number_Encoding_and_Decoding)）和长包头中的连接ID长度（[第17.2章](#17.2_Long_Header_Packets)）使用整型值来描述但不使用本编码。
